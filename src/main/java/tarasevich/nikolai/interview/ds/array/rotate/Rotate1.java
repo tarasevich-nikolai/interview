@@ -1,9 +1,9 @@
-package tarasevich.nikolai.interview.ds.array;
+package tarasevich.nikolai.interview.ds.array.rotate;
 
 /**
  * @author nikolai.tarasevich
  */
-public class Rotate {
+public class Rotate1 {
 
     /**
      * Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
@@ -36,8 +36,8 @@ public class Rotate {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6};
         int d = 2;
         int n = 6;
-        Rotate rotate = new Rotate();
-        //int[] result = rotate.rotateSystemArrayCopy(arr, n, d);
-        int[] result = rotate.rotateOneByOne(arr, n, d);
+        Rotate1 rotate1 = new Rotate1();
+        //int[] result = rotate1.rotateSystemArrayCopy(arr, n, d);
+        int[] result = rotate1.rotateOneByOne(arr, n, d);
     }
 }
