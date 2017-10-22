@@ -25,4 +25,16 @@ public class SearchHelper {
         }
         return arr;
     }
+
+    public static int[] generateSortedIntArray() {
+        return generateSortedIntArray(10);
+    }
+
+    public static int[] generateSortedIntArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = i + 100;
+        }
+        return arr;
+    }
 }
