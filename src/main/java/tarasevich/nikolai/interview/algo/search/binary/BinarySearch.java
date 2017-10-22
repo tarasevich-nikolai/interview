@@ -19,13 +19,13 @@ public class BinarySearch {
         if (lookingFor == middleElem) {
             return middleIndex;
         }
-        if (start == end) {
+        if (start == end || middleIndex == 0) {
             return -1;
         }
         if (lookingFor > middleElem) {
             return search(arr, lookingFor, middleIndex + 1, end);
         }
-        if (lookingFor < middleElem) {
+        if (lookingFor < middleElem ) {
             return search(arr, lookingFor, 0, middleIndex - 1);
         }
 
