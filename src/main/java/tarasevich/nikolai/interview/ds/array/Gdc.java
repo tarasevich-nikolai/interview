@@ -15,7 +15,7 @@ public class Gdc {
     public static void main(String args[]) {
         int a =8, b = 5;
         Gdc gdc = new Gdc();
-        System.out.println();
+        System.out.println("1");
         System.out.println(gdc.gdc1(a, b));
     }
 }
