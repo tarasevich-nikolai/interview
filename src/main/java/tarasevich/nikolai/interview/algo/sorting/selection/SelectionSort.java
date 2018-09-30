@@ -29,6 +29,7 @@ public class SelectionSort {
             pos++;
             return sort(arr, pos);
         } else {
+            System.out.println();
             return arr;
         }
     }
